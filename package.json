@@ -1,0 +1,14 @@
+{
+  "name": "chadt-app",
+  "version": "1.0.0",
+  "description": "My first simple chat on Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dmalc",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
