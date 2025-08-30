@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Первый чат</title>
+</head>
+<body>
+    <h1>Добро пожаловать в мой первый, девственный сервер!</h1>
+    <p>Это моя первая страница.</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <h2> Чтобы вас узнали</h2>
+    <form id= "chatForm" action ="send" method="POST">
+        <input type="name" name="username" placeholder="Введите имя пользователя">
+        <button type="submit">Войти</button> 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>Подумайте, что хотели бы сказать</h2>
+        <input type="text" name="message" placeholder="Введите сообщение">
+        <button type="submit">Отправить</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+<script>
+  const socket = io();
+</script>
+<script src="/script.js"></script>
+</body>
+</html>
